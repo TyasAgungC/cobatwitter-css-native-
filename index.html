@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>TwiTI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compitable" content="ie=edge">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="twitter.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			background: url("bg.jpg");
+		}
+
+		/** Responsif tablet **/
+		@media only screen and (max-width: 768px) {
+			#wrapper {
+				width: 500px;
+			}
+
+			#header {
+				height: 84px;
+			}
+
+			#logo {
+				margin-left: 130px;
+				margin-top: 15px;
+			}
+
+			#searchmenu{
+				margin:5px 15px auto;
+			}
+
+			#contentbox{
+				height: 700px;
+			}
+
+			.tweetEntry-tweetHolder{
+				width: 450px;
+			}
+
+			.tweetEntry-tweetHolder2{
+				width: 450px;
+			}
+
+			#sidebar{
+				height: 200px;
+			}
+
+			#sidebar2{
+				height: 350px;
+			}
+
+			#morelinks2{
+				width: 450px;
+				height: 670px;
+			}
+
+			#morelinks{
+				width: 450px;
+				height: 70px;
+				overflow: hidden;
+			}
+
+			#morelinks3{
+				width: 450px;
+				height: 150px;
+				overflow: hidden;
+			}
+
+		}
+
+		/** Responsif smartphone **/
+		@media only screen and (max-width: 400px) {
+			#wrapper {
+				width: 350px;
+			}
+
+			#header {
+				height: 84px;
+			}
+
+			#logo {
+				margin-left: 50px;
+				margin-top: 5px;
+			}
+
+			#searchmenu{
+				margin:5px 25px auto;
+			}
+
+			#contentbox{
+				height: 850px;
+			}
+
+			.tweetEntry-tweetHolder{
+				width: 300px;
+			}
+
+			.tweetEntry-tweetHolder2{
+				width: 300px;
+			}
+
+			#sidebar{
+				height: 200px;
+
+			}
+
+			#sidebar2{
+				height: 300px;
+			}
+
+			#morelinks2{
+				width: 300px;
+				height: 810px;
+			}
+
+			#morelinks{
+				width: 300px;
+				height: 70px;
+				overflow: hidden;
+			}
+
+			#morelinks3{
+				width: 300px;
+				height: 130px;
+				overflow: hidden;
+			}
+			
+		}
+
+		@media (orientation:landscape) {
+			.optionalMedia-img {
+				width: 100%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<!--<div id="logoname"><font color="darkblue">TEKNIK ELEKTRO</font></div>-->
+			<div id="menu" align="left">
+				<ul>
+					<li><a href="#"><i class="fa fa-home" style="width: 80px;"> Home</i></a></li>
+					<li><a href="#"><i class="fa fa-at" style="width: 80px;"> Connect</i></a></li>
+					<li><a href="#"><i class="fa fa-hashtag" style="width: 80px;"> Discover</i></a></li>
+				</ul>
+			</div>
+
+			<div id="logo"><img src="logo.png" width="20" height="20"></div>
+
+			<div id="searchmenu" align="right">
+				<form> 
+					<input type="text" name="search" placeholder="Search" size="10">
+					<i class="fa fa-user-circle-o" style="width: 80px;"></i>
+				</form>
+			</div>
+		</div>
+
+		<div id="inner">
+			<div id="sidebar">
+			<div id="morelinks">
+				<div class="tweetEntry-tweetHolder2">
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="http://placekitten.com/200/200">
+      						<strong class="tweetEntry-fullname">Tyas Agung</strong>
+    
+    					<div class="tweetEntry-text-container">
+      						<font size="1">View my profile page</font> <br />
+      						<font size="1">200 Twit | 1000 pengikut </font> 
+    					</div>
+  						</div>
+  					</div>
+				</div>
+				<div class="tweetEntry-tweetHolder2">
+					<div class="tweetEntry">
+      						<form><input type="text" name="new" placeholder="Buat twit baru" size="25">
+      						<input type="submit" name="sub" value="Post" >
+      					</form>
+  					</div>
+				</div>
+
+			</div>
+			<div id="morelinks">
+				<p>&nbsp; <b>Trending</b></p>
+				<font color="blue" size="2">
+					<ul type="none">
+						<li>#HTMLCSS</li>
+						<li>#IT</li>
+						<li>#Web</li>
+						<li>#Pemrograman</li>
+					</ul>
+				</font>
+			</div>
+			
+			</div>
+
+		<div id="contentbox">
+			<div id="content">
+				<div id="morelinks2">
+					<div class="tweetEntry-tweetHolder">
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="http://placekitten.com/200/200">
+      						<strong class="tweetEntry-fullname">Tyas Agung </strong>
+      
+      						<span class="tweetEntry-username">@<b>tyas_acm</b></span>
+      						<span class="tweetEntry-timestamp">- 1m</span></a>
+    
+    				<div class="tweetEntry-text-container">
+      				Bootstrap adalah front-end framework untuk tampilan mobile
+					device (Handphone, smartphone dan lain-lain) guna 
+					mempercepat dan mempermudah pengembangan website. 
+					Bootstrap menyediakan HTML, CSS dan Javascript siap 
+					pakai dan mudah.
+    				</div>
+  					</div>
+ 
+  					<div class="optionalMedia">
+    					<img class="optionalMedia-img" src="bootstrap.png">
+  					</div>
+  
+  					<div class="tweetEntry-action-list" style="line-height:24px;color: #b1bbc3;">
+    					<i class="fa fa-reply" style="width: 80px;"> 1</i>
+    					<i class="fa fa-retweet" style="width: 80px"> 2</i>
+    					<i class="fa fa-heart" style="width: 80px"> 10</i>
+  					</div>
+  					</div>
+					</div>
+
+					<div class="tweetEntry-tweetHolder">
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="http://placekitten.com/200/200">
+      						<strong class="tweetEntry-fullname">Tyas Agung</strong>
+      
+      						<span class="tweetEntry-username">@<b>tyas_acm</b></span>
+      						<span class="tweetEntry-timestamp">- 10m</span></a>
+    
+    				<div class="tweetEntry-text-container">
+      				Ada yang make bootstrap ???
+    				</div>
+  					</div>
+  
+  					<div class="tweetEntry-action-list" style="line-height:24px;color: #b1bbc3;">
+    					<i class="fa fa-reply" style="width: 80px;"> 3</i>
+    					<i class="fa fa-retweet" style="width: 80px"> 1</i>
+    					<i class="fa fa-heart" style="width: 80px"> 3</i>
+  					</div>
+  					</div>
+					</div>	
+				</div>
+			</div>
+			
+
+		</div>
+
+		<div id="inner">
+		<div id="sidebar2">
+			<div id="morelinks3">
+				<div class="tweetEntry-tweetHolder2">
+					<h3 class="tweetEntry2">Twit</h3>
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="bootstrap.png">
+      						<strong class="tweetEntry-fullname">Nurul Fajriah</strong>
+      
+      						<span class="tweetEntry-timestamp">- 1m</span></a>
+    
+    				<div class="tweetEntry-text-container">
+      				Have fun with CSS 
+    				</div>
+  					</div>
+  
+  					<div class="tweetEntry-action-list" style="line-height:24px;color: #b1bbc3;">
+    					<i class="fa fa-reply" style="width: 50px;"> 3</i>
+    					<i class="fa fa-retweet" style="width: 50px"> 2</i>
+    					<i class="fa fa-heart" style="width: 50px"> 11</i>
+  					</div>
+  					</div>
+					</div>	
+
+					<div class="tweetEntry-tweetHolder2">
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="http://placekitten.com/200/200">
+      						<strong class="tweetEntry-fullname">Popy Maulida</strong>
+      
+      						<span class="tweetEntry-timestamp">- 10m</span></a>
+    
+    				<div class="tweetEntry-text-container">
+      				Have fun with TwiTI 
+    				</div>
+  					</div>
+  
+  					<div class="tweetEntry-action-list" style="line-height:24px;color: #b1bbc3;">
+    					<i class="fa fa-reply" style="width: 50px;"> 3</i>
+    					<i class="fa fa-retweet" style="width: 50px"> 1</i>
+    					<i class="fa fa-heart" style="width: 50px"> 13</i>
+  					</div>
+  					</div>
+					</div>	
+
+					<div class="tweetEntry-tweetHolder2">
+						<h5 class="tweetEntry2">Tampilkan lebih banyak</h5>
+					</div>
+
+		
+			</div>
+			<div id="morelinks3">
+				<div class="tweetEntry-tweetHolder2">
+					<h3 class="tweetEntry2">Saran untuk mengikuti</h3>
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="http://placekitten.com/200/200">
+      						<strong class="tweetEntry-fullname">Zaefrand Ariant</strong>
+      						<span class="tweetEntry-username">@<b>zae_frand</b></span>
+    					<div class="tweetEntry-text-container">
+      						<font size="1">Diikuti oleh Popy Maulida</font> <br />
+      						<font size="1" color="blue">Follow </font> 
+    					</div>
+  						</div>
+  					</div>
+				</div>
+				<div class="tweetEntry-tweetHolder2">
+					
+					<div class="tweetEntry">
+  						<div class="tweetEntry-content">
+    						<a class="tweetEntry-account-group" href="#">
+      						<img class="tweetEntry-avatar" src="http://placekitten.com/200/200">
+      						<strong class="tweetEntry-fullname">Teuku Rionaldi</strong>
+      						<span class="tweetEntry-username">@<b>udas_deren</b></span>
+    					<div class="tweetEntry-text-container">
+      						<font size="1">Diikuti oleh Nurul Fajriah</font> <br />
+      						<font size="1" color="blue">Follow </font> 
+    					</div>
+  						</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div id="footer">
+			<div id="credits">
+			<div align="center">
+				<font color="#E0FFFF">
+				&copy; TwiTI 2018. Design by Onyetropika. Teknik Informatika UM. 
+				</font>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
